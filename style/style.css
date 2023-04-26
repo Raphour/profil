@@ -1,8 +1,15 @@
 /*Import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600&display=swap');
 body{
-    background-color: #4d4d4d;
+
     padding: 50px;
+    background-image: url(../assets/background.jpeg);
+    background-size: 100% 100%; /* pour ajuster la taille de l'image en fonction de la taille de l'écran */
+    background-repeat: no-repeat; /* pour empêcher la répétition de l'image */
+
+}
+html{
+    height: 100%;
 }
 
 *{
@@ -37,13 +44,14 @@ body{
   
   .image-container {
     position: relative;
+    width: 100%;
     
   }
 
   .image-container:not(:hover){
-    margin: 0 20px 0 20px;
-
+    margin:0 20px 0 20px;
   }
+
   .image-container>img {
     width: 100%;
   }
