@@ -1,0 +1,68 @@
+/*Import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600&display=swap');
+body{
+    background-color: #4d4d4d;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.image-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Jura', sans-serif;
+    width: 50%;
+  }
+
+.image-container:hover  .image-text h3{
+    font-weight: 600;
+
+  }
+  
+  .image-list li {
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  .image-container>img {
+    width: 100%;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+    padding: 10px;
+   
+  }
+  
+  .image-text h3,
+  .image-text p {
+    margin: 0;
+  }
+  
+  .image-text h3 {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  
+  .image-text p {
+    font-size: 14px;
+  }
+  
