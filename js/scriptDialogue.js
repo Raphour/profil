@@ -64,5 +64,15 @@ window.onload = function() {
   boutonSuivant.addEventListener("click", afficherDialogueSuivant);
   // pareil pour le bouton précédent
   boutonPrecedent.addEventListener("click", afficherDialoguePrecedent);
+
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "a") {
+      afficherDialogueSuivant();
+    } else if (event.key === "b") {
+      afficherDialoguePrecedent();
+    }
+  });
 }
+
+
 
