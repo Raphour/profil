@@ -113,7 +113,8 @@ html {
 }
 
 .boutons{
-    grid-area: 4 / 6 / 5 / 7;
+    grid-area: 4 / 5 / 5 / 7;
+    align-self: flex-end;
 }
 
 .texte-dialogue{
