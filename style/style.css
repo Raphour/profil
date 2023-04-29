@@ -1,20 +1,25 @@
 /*Import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600&display=swap');
-body{
+
+body {
 
     padding: 50px;
     background-image: url(../assets/background.jpeg);
-    background-size: 100% 100%; /* pour ajuster la taille de l'image en fonction de la taille de l'écran */
-    background-repeat: no-repeat; /* pour empêcher la répétition de l'image */
+    background-size: 100% 100%;
+    /* pour ajuster la taille de l'image en fonction de la taille de l'écran */
+    background-repeat: no-repeat;
+    /* pour empêcher la répétition de l'image */
+    height: 100%;
 
 }
-html{
+
+html {
     height: 100%;
 }
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 
 }
@@ -26,37 +31,37 @@ html{
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    padding:0;
+    padding: 0;
     margin: 0;
     font-family: 'Jura', sans-serif;
     width: 50%;
-  }
+}
 
-.image-container:hover  .image-text h3{
+.image-container:hover .image-text h3 {
     font-weight: 600;
 
-  }
-  
-  .image-list li {
+}
+
+.image-list li {
     flex: 0 0 50%;
     margin-bottom: 20px;
-  }
-  
-  .image-container {
+}
+
+.image-container {
     position: relative;
     width: 100%;
-    
-  }
 
-  .image-container:not(:hover){
-    margin:0 20px 0 20px;
-  }
+}
 
-  .image-container>img {
+.image-container:not(:hover) {
+    margin: 0 20px 0 20px;
+}
+
+.image-container>img {
     width: 100%;
-  }
-  
-  .image-text {
+}
+
+.image-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,17 +69,53 @@ html{
     color: #000;
     text-align: center;
     padding: 10px;
-   
-  }
-  
-  .image-text h3,
-  .image-text p {
+
+}
+
+.image-text h3,
+.image-text p {
     margin: 0;
-  }
-  
-  .image-text h3 {
+}
+
+.image-text h3 {
     font-size: 60px;
     font-weight: 400;
-  }
+}
 
-  
+/*PAGE PRESENTATION*/
+
+.conteneur-dialogue {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
+    grid-template-rows: repeat(5, 1fr) 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.dialogue {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100%;
+    font-family: 'Jura', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 100%;
+    grid-area: 5 / 2 / 6 / 6;
+    padding: 20px;
+
+}
+
+.boutons{
+    grid-area: 4 / 6 / 5 / 7;
+}
+
+.texte-dialogue{
+    grid-area: 1 / 1 / 3 / 7;
+}
