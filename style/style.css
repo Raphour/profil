@@ -154,10 +154,11 @@ html {
     text-align: right;
 }
 
-.boutons button{
-    border-radius: 5px;
-    background-color: aliceblue;
-    color: black;
+
+
+.boutonMenu{
+    grid-area: 4/1/5/2;
+    width: 50%;
 }
 
 .texte-dialogue {

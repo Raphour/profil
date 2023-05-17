@@ -11,9 +11,9 @@ window.onload = function () {
 
 	var dialogues = [
 		"Je suis passioné par l'informatique, j'ai toujours baigné dedans et dès la fin du collège je voulais que l'informatique fasse partie intégrante de mon avenir",
-		"Je viens de Tullins une ville près de Grenoble et cette année j'ai déménagé à Nantes pour mes études d'informatique... ",
-		"Ce site va vous permettre d'en savoir plus sur moi, ma passion et pourquoi j'ai décidé d'en faire mon domaine d'études...",
-		"Si vous avez une question, une remarques ou des pistes d'améliorations, la rubrique Contact est la pour ça",
+		"Donc j'ai décidé de faire de ma passion mon domaine d'étude et d'expertise il me fallait donc un challenge à la hauteur de mes attentes",
+		"Pour combler ma soif d'apprendre et de me perfectionner je me suis dis d'une école d'ingénieur serait parfait",
+		"Aujourd'hui je suis en première année du parcours PEIP qui va m'amener jusqu'à Polytech",
 		
 	];
 

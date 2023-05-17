@@ -11,3 +11,8 @@ function resetImage(element) {
     var nouvelleImage = "../assets/menu_button.png";
     image.src = nouvelleImage;
 }
+
+function changeImageMenu(sourceImage){
+    document.getElementById("imageMenu").src = sourceImage;
+    
+}
