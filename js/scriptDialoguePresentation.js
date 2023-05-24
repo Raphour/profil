@@ -28,7 +28,7 @@ window.onload = function () {
 			clearInterval(intervalId);
 			enTrainDEcrire = false; // Indique que l'animation est terminée
 		  }
-		}, 25);
+		}, 10);
 	  }
 
 	afficherLettre(dialogues[indexDialogue]);
