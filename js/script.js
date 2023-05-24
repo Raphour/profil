@@ -16,3 +16,7 @@ function changeImageMenu(sourceImage){
     document.getElementById("imageMenu").src = sourceImage;
     
 }
+
+function resetImageMenu(){
+    document.getElementById("imageMenu").src = "../assets/boxe.png";
+}
