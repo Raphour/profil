@@ -11,9 +11,10 @@ window.onload = function () {
 
 	var dialogues = [
 		"Je suis passioné par l'informatique, j'ai toujours baigné dedans et dès la fin du collège je voulais que l'informatique fasse partie intégrante de mon avenir",
-		"Je viens de Tullins une ville près de Grenoble et cette année j'ai déménagé à Nantes pour mes études d'informatique... ",
-		"Ce site va vous permettre d'en savoir plus sur moi, ma passion et pourquoi j'ai décidé d'en faire mon domaine d'études...",
-		"Si vous avez une question, une remarques ou des pistes d'améliorations, la rubrique Contact est la pour ça",
+		"Ma période au lycée m'a conforté dans mon choix et au moment de choisir mon orientation post-bac j'ai décidé de viser grand...",
+		"Il me fallait une école qui nourisse mon envie d'apprendre et d'améliorer dans ce domaine que j'apprécie...",
+		"Donc j'ai décidé de postuler au parcours PEIP de Polytech Nantes, une école d'ingenieur c'était l'idéal...",
+        "Aujourdhui je suis en premier année de ce parcours et je n'attends qu'une chose c'est d'integrer Polytech pour réaliser de grands Projets."
 		
 	];
 
