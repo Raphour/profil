@@ -20,3 +20,5 @@ function changeImageMenu(sourceImage){
 function resetImageMenu(){
     document.getElementById("imageMenu").src = "../assets/boxe.png";
 }
+window.onload = function () {
+    document.getElementById("ImageMenu").src = "../assets/boxe.png";}

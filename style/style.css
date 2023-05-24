@@ -177,3 +177,27 @@ html {
 a{
     width: fit-content;
 }
+
+#imageMenu{
+    border-radius: 20px;
+    border: 5px solid white;
+
+}
+
+#bouton-precedent, #bouton-suivant, .boutonMenu{
+    border-radius: 5px;
+    padding: 7px;
+    border: grey 1px solid;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    background-color: azure;
+
+}
+
+#bouton-precedent:hover:enabled, #bouton-suivant:hover:enabled, .boutonMenu:hover{
+    border-radius: 5px;
+    padding: 4px;
+    border: #2dade3 3px solid;
+
+
+}
