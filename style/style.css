@@ -33,13 +33,12 @@ html {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr ;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
         "list-image list-image list-image menu-image menu-image menu-image"
-        "list-image list-image list-image menu-image menu-image menu-image"
-        "list-image list-image list-image . . .";
+        "list-image list-image list-image sideButtons sideButtons sideButtons";
     height: 100%;
 
     
@@ -91,6 +90,9 @@ html {
     transform: scale(1.05);
 }
 
+.buttonText{
+    font-size: 3vw;
+}
 
 
 .image-container>img {
@@ -114,7 +116,7 @@ html {
 }
 
 .image-text h3 {
-    font-size: 60px;
+
     font-weight: 400;
 }
 

@@ -17,7 +17,7 @@
 				<div class="image-container" onmouseover="changeImage(this); changeImageMenu('../assets/bowling.png') " onmouseout="resetImage(this); resetImageMenu()">
 					<img alt="Image 1" src="assets/menu_button.png">
 					<div class="image-text">
-						<h3>Présentation</h3>
+						<h3 class="buttonText">Présentation</h3>
 					</div>
 				</div>
 			</a>
@@ -25,23 +25,23 @@
 				<div class="image-container" onmouseover="changeImage(this),changeImageMenu('../assets/golf.png')" onmouseout="resetImage(this),resetImageMenu()">
 					<img src="assets/menu_button.png">
 					<div class="image-text">
-						<h3>Passion</h3>
+						<h3 class="buttonText">Passion</h3>
 					</div>
 				</div>
 			</a>
-			<a href="pages/presentation.html">
+			<a href="pages/hobbies.html">
 				<div class="image-container" onmouseover="changeImage(this); changeImageMenu('../assets/tennis.png') " onmouseout="resetImage(this); resetImageMenu()">
 					<img src="assets/menu_button.png">
 					<div class="image-text">
-						<h3>Expérience?<h3>
+						<h3 class="buttonText">Hobbies</h3>
 					</div>
 				</div>
 			</a>
-			<a href="pages/presentation.html">
+			<a href="pages/hobbies.html">
 				<div class="image-container" onmouseover="changeImage(this); changeImageMenu('../assets/baseball.png') " onmouseout="resetImage(this); resetImageMenu()">
 					<img src="assets/menu_button.png">
 					<div class="image-text">
-						<h3>Contact</h3>
+						<h3 class="buttonText" >Et l'avenir ?</h3>
 					</div>
 				</div>
 			</a>
@@ -50,6 +50,12 @@
 		<section class="menu-image">
 			<img id='imageMenu' src="assets/boxe.png" alt="Image de menu">
 
+		</section>
+
+		<section class="sideButtons">
+			<div class="buttonsContainer">
+				<img onmouseover="changeSideImage('../assets/mailHover.png')" onmouseout="resetSideImage()" id="sideImageMail" style="width: 100%;" src="assets/mail.png" alt="Image Mail" >
+			</div>
 		</section>
 
 	</div>

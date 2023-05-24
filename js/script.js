@@ -13,12 +13,24 @@ function resetImage(element) {
 }
 
 function changeImageMenu(sourceImage){
-    document.getElementById("imageMenu").src = sourceImage;
+    document.getElementById("ImageMenu").src = sourceImage;
     
 }
 
 function resetImageMenu(){
     document.getElementById("imageMenu").src = "../assets/boxe.png";
 }
+
+
+function resetSideImage(){
+    document.getElementById("sideImageMail").src = "../assets/mail.png";
+    
+}
+function changeSideImage(sourceImage){
+    document.getElementById("sideImageMail").src = sourceImage;
+}
+
+
+
 window.onload = function () {
     document.getElementById("ImageMenu").src = "../assets/boxe.png";}
