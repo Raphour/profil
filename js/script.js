@@ -1,14 +1,14 @@
 
 function changeImage(element) {
     var image = element.querySelector("img");
-    var nouvelleImage = "../assets/menu_button_hover.png";
+    var nouvelleImage = "/assets/menu_button_hover.png";
     image.src = nouvelleImage;
 }
 
 
 function resetImage(element) {
     var image = element.querySelector("img");
-    var nouvelleImage = "../assets/menu_button.png";
+    var nouvelleImage = "/assets/menu_button.png";
     image.src = nouvelleImage;
 }
 
@@ -18,7 +18,7 @@ function changeImageMenu(sourceImage){
 }
 
 function resetImageMenu(){
-    document.getElementById("imageMenu").src = "../assets/boxe.png";
+    document.getElementById("imageMenu").src = "/assets/boxe.png";
 }
 
 
@@ -33,4 +33,4 @@ function changeSideImage(id,sourceImage){
 
 
 window.onload = function () {
-    document.getElementById("ImageMenu").src = "../assets/boxe.png";}
+    document.getElementById("ImageMenu").src = "/assets/boxe.png";}
