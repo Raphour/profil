@@ -13,7 +13,7 @@ window.onload = function () {
 		"Pour l'avenir j'aimerai continuer à travailler dans le domaine de l'informatique",
         "C'est un domaine qui me passionne et en faire mon métier à l'avenir serait une chance pour moi",
         "Peut être qu'une carrière de développeur d'app ou d'ingénieur logiciel m'attend qui sait ?",
-        "Ou alors travailler à l'étranger serait une belle opportunité pour moi",
+        "Ou alors travailler à l'étranger dans ce domaine serait aussi une belle opportunité pour moi",
 
 		
 	];
