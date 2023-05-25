@@ -22,12 +22,12 @@ function resetImageMenu(){
 }
 
 
-function resetSideImage(){
-    document.getElementById("sideImageMail").src = "../assets/mail.png";
+function resetSideImage(id,sourceImage){
+    document.getElementById(id).src = sourceImage;
     
 }
-function changeSideImage(sourceImage){
-    document.getElementById("sideImageMail").src = sourceImage;
+function changeSideImage(id,sourceImage){
+    document.getElementById(id).src = sourceImage;
 }
     
 

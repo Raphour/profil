@@ -210,9 +210,9 @@ a{
 
 .buttonsContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     width: 100%;
 }
 .buttonsContainer img{
-    width: 35%
+    width: 30%
 }
