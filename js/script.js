@@ -29,7 +29,7 @@ function resetSideImage(){
 function changeSideImage(sourceImage){
     document.getElementById("sideImageMail").src = sourceImage;
 }
-
+    
 
 
 window.onload = function () {
