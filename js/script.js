@@ -13,7 +13,7 @@ function resetImage(element) {
 }
 
 function changeImageMenu(sourceImage){
-    document.getElementById("ImageMenu").src = sourceImage;
+    document.getElementById("imageMenu").src = sourceImage;
     
 }
 

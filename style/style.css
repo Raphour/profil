@@ -44,6 +44,9 @@ html {
     
 }
 
+.sideButtons{
+    grid-area: sideButtons;
+}
 .menu-image{
     grid-area: menu-image;
 
@@ -211,5 +214,5 @@ a{
     width: 100%;
 }
 .buttonsContainer img{
-    width: 70%
+    width: 35%
 }
