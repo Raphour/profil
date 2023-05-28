@@ -10,13 +10,13 @@ window.onload = function () {
 
 
 	var dialogues = [
-		"Pour l'avenir j'aimerai continuer à travailler dans le domaine de l'informatique...",
+		"Pour l'avenir j'aimerais continuer à travailler dans le domaine de l'informatique...",
         "C'est un domaine qui me passionne et en faire mon métier à l'avenir serait une chance pour moi...",
         "Mon objectif est d'utiliser mes compétences et ma créativité pour développer des solutions innovantes qui auront un impact significatif sur la vie des gens...",
         "En explorant les dernières avancées en matière de développement logiciel, je me prépare à relever les défis futurs de manière proactive... ",
-        "Je suis prêt à relever les défis techniques complexes, à résoudre les problèmes de manière créative",
-        "Peut être qu'une carrière de développeur d'app ou d'ingénieur logiciel m'attend qui sait ?",
-        "Ou alors travailler à l'étranger dans ce domaine serait aussi une belle opportunité pour moi",
+        "Je suis prêt à relever les défis techniques complexes, à résoudre les problèmes de manière créative...",
+        "Peut-être qu'une carrière de développeur d'app ou d'ingénieur logiciel m'attend qui sait ?",
+        "Ou alors travailler à l'étranger dans ce domaine serait aussi une belle opportunité pour moi.",
 
 		
 	];

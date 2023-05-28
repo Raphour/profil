@@ -15,7 +15,7 @@ window.onload = function () {
 		"Je viens de Tullins une ville près de Grenoble et cette année j'ai déménagé à Nantes pour mes études d'informatique... ",
 		"Ce site va vous permettre d'en savoir plus sur moi, ma passion et pourquoi j'ai décidé d'en faire mon domaine d'études...",
 		"Puis je vous parlerai de mes projets pour l'avenir et de mes ambitions...",
-		"Le site est assez simple d'utilistaion comme vous avez compris deux boutons vous permettent de naviguer dans les dialogues...",
+		"Le site est assez simple d'utilisation comme vous avez compris deux boutons vous permettent de naviguer dans les dialogues...",
 		"Vous pouvez aussi utiliser les touches A et B de votre clavier pour naviguer dans les dialogues...",
 		"Si vous souhaitez revenir au menu principal vous pouvez cliquer sur le bouton menu en bas à gauche de votre écran...",
 
