@@ -12,7 +12,7 @@ window.onload = function () {
 	var dialogues = [
 		"Je suis passionné par l'informatique, j'ai toujours baigné dedans et dès la fin du collège je voulais que l'informatique fasse partie intégrante de mon avenir",
 		"Ma période au lycée m'a conforté dans mon choix et au moment de choisir mon orientation post-bac j'ai décidé de viser grand...",
-		"Il me fallait une école qui nourrisse mon envie d'apprendre et d'améliorer dans ce domaine que j'apprécie...",
+		"Il me fallait une école qui nourrisse mon envie d'apprendre et de m'améliorer dans ce domaine que j'apprécie...",
 		"Donc j'ai décidé de postuler au parcours PEIP de Polytech Nantes, une école d'ingénieur c'était l'idéal...",
         "Aujourd'hui je suis en première année de ce parcours et je n'attends qu'une chose c'est d'intégrer Polytech pour réaliser de grands Projets."
 
