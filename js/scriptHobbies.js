@@ -10,10 +10,10 @@ window.onload = function () {
 
 
 	var dialogues = [
-		"Avant que je vienne à Nantes je jouais dans un club de Basket c'est un sport qui me tenait à coeur et que j'ai pratiqué pendant 4 ans...",
+		"Avant que je vienne à Nantes, je jouais dans un club de Basket. C'est un sport qui me tenait à coeur et que j'ai pratiqué pendant 4 ans...",
         "C'est un sport qui m'a beaucoup apporté, j'y ai appris des valeurs fortes comme le respect, l'esprit d'équipe et la persévérance...",
         "De plus étant arbitre, cette période m'a aidé à prendre confiance en moi et à m'exprimer en public...",
-        "C'est grâce à ce sport, et aux personnes avec qui je le pratiquais que j'ai pu devenir la personne que je suis aujourd'hui",
+        "C'est grâce à ce sport, et aux personnes avec qui je le pratiquais que j'ai pu devenir la personne que je suis aujourd'hui.",
 		
 	];
 
